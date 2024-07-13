@@ -44,7 +44,7 @@ const Navbar = () => {
         <a href="#cart">
           <BsCart2 className="navbar-cart-icon" />
         </a>
-        <button className="primary-button">Bookings Now</button>
+        <button className="primary-button" style={{backgroundColor:"#8AAAE5"}}>Login/SignUp</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

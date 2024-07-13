@@ -1,8 +1,6 @@
 import React from "react";
 import AboutBackgroundImage from "../Assets/cake3.png";
 
-
-
 const About = () => {
   return (
     <section id="about">
@@ -25,7 +23,7 @@ const About = () => {
         to being a part of your sweetest moments!
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          <button className="secondary-button">Order Now</button>
         </div>
       </div>
     </div>

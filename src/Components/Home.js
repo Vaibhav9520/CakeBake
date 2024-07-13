@@ -1,6 +1,5 @@
 import React from "react";
-import BannerImage from "../Assets/cake1.png";
-import { FiArrowRight } from "react-icons/fi";
+import cake1 from "../Assets/cake1.png";
 
 const Home = () => {
   return (
@@ -19,11 +18,11 @@ const Home = () => {
           expression through baking.
           </p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Taste It
           </button>
         </div>
         <div className="home-image-section">
-          <img src={BannerImage} alt="" />
+          <img src={cake1} alt="" />
         </div>
       </div>
     </div>

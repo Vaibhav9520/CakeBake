@@ -1,11 +1,11 @@
 import React from "react";
+import { AiFillStar } from "react-icons/ai";
 import pic1 from "../Assets/p1.png";
 import pic2 from "../Assets/p2.png";
 import pic3 from "../Assets/p3.png";
 import pic4 from "../Assets/p4.png";
 import pic5 from "../Assets/p5.png";
 import pic6 from "../Assets/p6.png";
-import { AiFillStar } from "react-icons/ai";
 
 const Reviews = () => {
   return (
@@ -28,13 +28,7 @@ const Reviews = () => {
            The vanilla sponge was incredibly light and the frosting was perfectly sweet.
             Everyone at the party loved it!"
           </p>
-          <div className="testimonials-stars-container">
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-          </div>
+         
           <h2>Vishal</h2>
         </div>
         <div className="testimonial-section-bottom">
@@ -45,13 +39,7 @@ const Reviews = () => {
           I highly recommend this place to anyone with a sweet tooth. Plus, 
           the staff is always so friendly and helpful!"
           </p>
-          <div className="testimonials-stars-container">
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-          </div>
+       
           <h2>Vineet</h2>
         </div>
         <div className="testimonial-section-bottom">
@@ -61,13 +49,7 @@ const Reviews = () => {
            The spices were perfectly balanced, and the cream cheese frosting was to die 
            for. Sweet Delights has become my go-to cake shop for all special occasions."
           </p>
-          <div className="testimonials-stars-container">
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-          </div>
+        
           <h2>Sonakshi</h2>
         </div>
         <div className="testimonial-section-bottom">
@@ -78,13 +60,7 @@ const Reviews = () => {
           The cake was moist, flavorful, and beautifully decorated. 
           It's great to have such tasty options for dietary needs."
           </p>
-          <div className="testimonials-stars-container">
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-          </div>
+       
           <h2>Sakshi</h2>
         </div>
         <div className="testimonial-section-bottom">
@@ -94,13 +70,7 @@ const Reviews = () => {
           the cream cheese frosting was just right. It made our celebration extra special. 
           I'll definitely be coming back for more!"
           </p>
-          <div className="testimonials-stars-container">
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-          </div>
+    
           <h2>Vihan</h2>
         </div>
 
@@ -111,13 +81,6 @@ const Reviews = () => {
            light, with just the right amount of sweetness. I've tried several cakes from here
             and they never disappoint. Highly recommended!"
           </p>
-          <div className="testimonials-stars-container">
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-            <AiFillStar />
-          </div>
           <h2>Yuvraj</h2>
         </div>
       </div>

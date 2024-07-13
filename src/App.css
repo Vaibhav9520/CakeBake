@@ -556,6 +556,57 @@ nav {
 }
 
 
+/* Add these styles in your CSS file */
+
+#reviews {
+  padding: 2rem;
+  background-color: #E7E8D1;
+  border-radius: 3rem;
+}
+
+.work-section-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-section-top2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.testimonial-section-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.testimonials-stars-container {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+@media (min-width: 768px) {
+  .work-section-wrapper2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .testimonial-section-bottom {
+    max-width: 45%;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonial-section-bottom {
+    max-width: 30%;
+  }
+}
 
 
 

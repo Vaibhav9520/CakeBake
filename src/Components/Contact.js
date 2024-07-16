@@ -8,12 +8,12 @@ import { FaFacebookF } from "react-icons/fa";
 const Contact = () => {
   return (
     <section id="contact" >
-      <div style={{ marginBottom: "10rem" }}>
-        <div className="contact-page-wrapper" >
-          <h1 className="primary-heading">Have Question In Mind?</h1>
-          <h1 className="primary-heading">Let Us Help You</h1>
+      <div style={{ backgroundColor:"#E7E8D1", padding: "2rem" , marginTop: "4rem", borderRadius: "2rem"}}>
+        <div className="contact-page-wrapper">
+        <h1 className="primary-heading">Looking for Information?</h1>
+        <h1 className="primary-heading">We're Here to Assist!</h1>
           <div className="contact-form-container">
-            <input type="text" placeholder="CakeBake@gmail.com" />
+            <input type="text" placeholder="Write Your Query. . . . . . . . . . . ." />
             <button className="secondary-button">Submit</button>
           </div>
         </div>

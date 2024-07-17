@@ -26,6 +26,9 @@ const Work = () => {
           <h2>Chocolate Cake</h2>
           <p>Rich chocolate cake with layers of chocolate ganache and sprinkles.</p>
           <p>Price: Rs.800/kg</p>
+          <button className="secondary-button-buy">
+            Buy Now
+          </button>
         </div>
 
       
@@ -36,6 +39,9 @@ const Work = () => {
           <h2>Vanilla Cake</h2>
           <p>Classic vanilla cake with vanilla buttercream frosting and fruit toppings.</p>
           <p>Price: Rs.850/kg</p>
+          <button className="secondary-button-buy">
+            Buy Now
+          </button>
         </div>
 
        
@@ -46,6 +52,9 @@ const Work = () => {
           <h2>Red Velvet Cake</h2>
           <p>Moist red velvet cake with cream cheese frosting and red velvet crumbs.</p>
           <p>Price: Rs.900/kg</p>
+          <button className="secondary-button-buy">
+            Buy Now
+          </button>
         </div>
 
        
@@ -56,6 +65,9 @@ const Work = () => {
           <h2>Black Forest Cake</h2>
           <p>Moist red velvet cake with cream cheese frosting and red velvet crumbs.</p>
           <p>Price: Rs.700/kg</p>
+          <button className="secondary-button-buy">
+            Buy Now
+          </button>
         </div>
 
         <div className="work-section-info" style={{ flex: "0 0 calc(33.33% - 20px)", margin: '10px', minWidth: '250px' ,backgroundColor: '#D3C5E5'}}>
@@ -65,6 +77,9 @@ const Work = () => {
           <h2>Pinnaple Cake</h2>
           <p>Moist red velvet cake with cream cheese frosting and red velvet crumbs.</p>
           <p>Price: Rs.950/kg</p>
+          <button className="secondary-button-buy">
+            Buy Now
+          </button>
         </div>
 
         <div className="work-section-info" style={{ flex: "0 0 calc(33.33% - 20px)", margin: '10px', minWidth: '250px' ,backgroundColor: '#D3C5E5'}}>
@@ -74,6 +89,9 @@ const Work = () => {
           <h2>White Forest Cake</h2>
           <p>Moist red velvet cake with cream cheese frosting and red velvet crumbs.</p>
           <p>Price: 1000/kg</p>
+          <button className="secondary-button-buy">
+            Buy Now
+          </button>
         </div>
       </div>
     </div>

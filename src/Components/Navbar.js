@@ -31,7 +31,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav >
+    <nav>
       <div className="nav-logo-container">
         <img src={Logo} alt="Logo" style={{ width: "180px", height: "auto" }} />
       </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
         <a href="#cart">
           <BsCart2 className="navbar-cart-icon" />
         </a>
-        <button className="primary-button" style={{backgroundColor:"#8AAAE5"}}>Login/SignUp</button>
+        <a href="login.html" target="_blank"><button className="primary-button" style={{ backgroundColor: "#8AAAE5" }} >Login/SignUp</button></a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
@@ -68,11 +68,10 @@ const Navbar = () => {
               </ListItemButton>
             </ListItem>
             <ListItem disablePadding>
-              <ListItemButton
-                onClick={() => {
-                  setOpenMenu(false);
-                  handleScrollToSection("#about");
-                }}
+              <ListItemButton onClick={() => {
+                setOpenMenu(false);
+                handleScrollToSection("#about");
+              }}
               >
                 <ListItemText primary="About" />
               </ListItemButton>
@@ -122,6 +121,8 @@ const Navbar = () => {
         </Box>
       </Drawer>
     </nav>
+
+
   );
 };
 

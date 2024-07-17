@@ -114,12 +114,32 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
+.secondary-button-buy {
+  padding: 0.4rem 1rem;
+  background-color: #55c2da;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .secondary-button svg {
   margin-left: 0.75rem;
   font-size: 1.5rem;
 }
 .secondary-button:hover {
   background-color: #e48f0f;
+}
+
+.secondary-button-buy:hover {
+  background-color: #6269eb;
 }
 .about-section-container {
   margin-top: 7rem;

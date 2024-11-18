@@ -18,9 +18,6 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
-
-
-
 body {
   background-color: #ffd1dc; 
   margin: 0; 
@@ -138,9 +135,11 @@ nav {
   background-color: #e48f0f;
 }
 
+
 .secondary-button-buy:hover {
   background-color: #6269eb;
 }
+
 .about-section-container {
   margin-top: 7rem;
   position: relative;
@@ -586,7 +585,6 @@ nav {
   flex-direction: column;
   align-items: center;
 }
-
 .work-section-top2 {
   text-align: center;
   margin-bottom: 2rem;
@@ -599,13 +597,11 @@ nav {
   margin-bottom: 2rem;
   text-align: center;
 }
-
 .testimonials-stars-container {
   display: flex;
   justify-content: center;
   margin: 0.5rem 0;
 }
-
 @media (min-width: 768px) {
   .work-section-wrapper2 {
     flex-direction: row;
@@ -618,7 +614,6 @@ nav {
     margin: 1rem;
   }
 }
-
 @media (min-width: 1024px) {
   .testimonial-section-bottom {
     max-width: 30%;

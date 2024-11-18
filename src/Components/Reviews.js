@@ -1,5 +1,4 @@
 import React from "react";
-import { AiFillStar } from "react-icons/ai";
 import pic1 from "../Assets/p1.png";
 import pic2 from "../Assets/p2.png";
 import pic3 from "../Assets/p3.png";
